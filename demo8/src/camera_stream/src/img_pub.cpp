@@ -36,13 +36,13 @@ int main(int argc, char ** argv)
         /* code */
         capture >> img;
 
-        sensor_msgs::msg::Image::SharedPtr msg = cv_bridge::CvImage(header,"brg8",img).toImageMsg();
+        sensor_msgs::msg::Image::SharedPtr msg = cv_bridge::CvImage(header,"bgr8",img).toImageMsg();
 
         pub.publish(msg);
 
         rclcpp::spin_some(node);
         loop_rate.sleep();
-        
+
     }
     
 }

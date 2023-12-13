@@ -759,4 +759,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/camera_stream_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/img_pub.dir/DependInfo.cmake"
+  "CMakeFiles/img_sub.dir/DependInfo.cmake"
   )

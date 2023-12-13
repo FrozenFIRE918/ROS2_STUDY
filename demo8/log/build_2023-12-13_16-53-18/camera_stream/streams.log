@@ -1,0 +1,28 @@
+[0.031s] Invoking command in '/home/lin/ros2_study/demo8/build/camera_stream': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/ros2_study/demo8/build/camera_stream -- -j20 -l20
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target img_pub[0m
+[0.066s] [ 25%] [32mBuilding CXX object CMakeFiles/img_sub.dir/src/img_sub.cpp.o[0m
+[0.070s] [ 75%] Built target img_pub
+[1.703s] [100%] [32m[1mLinking CXX executable img_sub[0m
+[1.946s] [100%] Built target img_sub
+[1.955s] Invoked command in '/home/lin/ros2_study/demo8/build/camera_stream' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/ros2_study/demo8/build/camera_stream -- -j20 -l20
+[1.977s] Invoking command in '/home/lin/ros2_study/demo8/build/camera_stream': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/ros2_study/demo8/build/camera_stream
+[1.984s] -- Install configuration: ""
+[1.984s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/lib/camera_stream/img_pub
+[1.984s] -- Installing: /home/lin/ros2_study/demo8/install/camera_stream/lib/camera_stream/img_sub
+[1.984s] -- Set runtime path of "/home/lin/ros2_study/demo8/install/camera_stream/lib/camera_stream/img_sub" to ""
+[1.985s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/ament_index/resource_index/package_run_dependencies/camera_stream
+[1.985s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/ament_index/resource_index/parent_prefix_path/camera_stream
+[1.986s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/ament_prefix_path.sh
+[1.986s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/ament_prefix_path.dsv
+[1.987s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/path.sh
+[1.987s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/path.dsv
+[1.987s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/local_setup.bash
+[1.987s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/local_setup.sh
+[1.988s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/local_setup.zsh
+[1.988s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/local_setup.dsv
+[1.988s] -- Installing: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/package.dsv
+[1.989s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/ament_index/resource_index/packages/camera_stream
+[1.989s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/cmake/camera_streamConfig.cmake
+[1.989s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/cmake/camera_streamConfig-version.cmake
+[1.989s] -- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/package.xml
+[1.989s] Invoked command in '/home/lin/ros2_study/demo8/build/camera_stream' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/ros2_study/demo8/build/camera_stream

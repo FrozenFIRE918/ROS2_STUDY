@@ -210,6 +210,19 @@ img_pub/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/img_pub.dir/build.make CMakeFiles/img_pub.dir/build
 .PHONY : img_pub/fast
 
+#=============================================================================
+# Target rules for targets named img_sub
+
+# Build rule for target.
+img_sub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 img_sub
+.PHONY : img_sub
+
+# fast build rule for target.
+img_sub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/img_sub.dir/build.make CMakeFiles/img_sub.dir/build
+.PHONY : img_sub/fast
+
 src/img_pub.o: src/img_pub.cpp.o
 .PHONY : src/img_pub.o
 
@@ -234,6 +247,30 @@ src/img_pub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/img_pub.dir/build.make CMakeFiles/img_pub.dir/src/img_pub.cpp.s
 .PHONY : src/img_pub.cpp.s
 
+src/img_sub.o: src/img_sub.cpp.o
+.PHONY : src/img_sub.o
+
+# target to build an object file
+src/img_sub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/img_sub.dir/build.make CMakeFiles/img_sub.dir/src/img_sub.cpp.o
+.PHONY : src/img_sub.cpp.o
+
+src/img_sub.i: src/img_sub.cpp.i
+.PHONY : src/img_sub.i
+
+# target to preprocess a source file
+src/img_sub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/img_sub.dir/build.make CMakeFiles/img_sub.dir/src/img_sub.cpp.i
+.PHONY : src/img_sub.cpp.i
+
+src/img_sub.s: src/img_sub.cpp.s
+.PHONY : src/img_sub.s
+
+# target to generate assembly for a file
+src/img_sub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/img_sub.dir/build.make CMakeFiles/img_sub.dir/src/img_sub.cpp.s
+.PHONY : src/img_sub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... camera_stream_uninstall"
 	@echo "... uninstall"
 	@echo "... img_pub"
+	@echo "... img_sub"
 	@echo "... src/img_pub.o"
 	@echo "... src/img_pub.i"
 	@echo "... src/img_pub.s"
+	@echo "... src/img_sub.o"
+	@echo "... src/img_sub.i"
+	@echo "... src/img_sub.s"
 .PHONY : help
 
 

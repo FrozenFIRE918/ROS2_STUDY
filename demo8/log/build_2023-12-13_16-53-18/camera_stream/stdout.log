@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target img_pub[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/img_sub.dir/src/img_sub.cpp.o[0m
+[ 75%] Built target img_pub
+[100%] [32m[1mLinking CXX executable img_sub[0m
+[100%] Built target img_sub
+-- Install configuration: ""
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/lib/camera_stream/img_pub
+-- Installing: /home/lin/ros2_study/demo8/install/camera_stream/lib/camera_stream/img_sub
+-- Set runtime path of "/home/lin/ros2_study/demo8/install/camera_stream/lib/camera_stream/img_sub" to ""
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/ament_index/resource_index/package_run_dependencies/camera_stream
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/ament_index/resource_index/parent_prefix_path/camera_stream
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/path.sh
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/path.dsv
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/local_setup.bash
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/local_setup.sh
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/local_setup.zsh
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/local_setup.dsv
+-- Installing: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/package.dsv
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/ament_index/resource_index/packages/camera_stream
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/cmake/camera_streamConfig.cmake
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/cmake/camera_streamConfig-version.cmake
+-- Up-to-date: /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/package.xml

@@ -38,6 +38,24 @@ install(
   DESTINATION lib/${PROJECT_NAME}
 )
 
+add_executable(img_sub src/img_sub.cpp)
+
+target_link_directories(img_sub PUBLIC
+$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+$<INSTALL_INTERFACE:include>)
+
+ament_target_dependencies(
+  img_sub
+  "rclcpp"
+  "OpenCV"
+  "cv_bridge"
+  "image_transport"
+)
+
+install(
+  TARGETS img_sub
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
