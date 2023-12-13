@@ -1,0 +1,15 @@
+/home/lin/ros2_study/demo8/install/camera_stream/share/ament_index/resource_index/package_run_dependencies/camera_stream
+/home/lin/ros2_study/demo8/install/camera_stream/share/ament_index/resource_index/parent_prefix_path/camera_stream
+/home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/ament_prefix_path.sh
+/home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/ament_prefix_path.dsv
+/home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/path.sh
+/home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/path.dsv
+/home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/local_setup.bash
+/home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/local_setup.sh
+/home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/local_setup.zsh
+/home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/local_setup.dsv
+/home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/package.dsv
+/home/lin/ros2_study/demo8/install/camera_stream/share/ament_index/resource_index/packages/camera_stream
+/home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/cmake/camera_streamConfig.cmake
+/home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/cmake/camera_streamConfig-version.cmake
+/home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/package.xml

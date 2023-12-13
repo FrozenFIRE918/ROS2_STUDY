@@ -1,0 +1,9 @@
+/home/lin/ros2_study/demo8/build/camera_stream/CMakeFiles/uninstall.dir
+/home/lin/ros2_study/demo8/build/camera_stream/CMakeFiles/camera_stream_uninstall.dir
+/home/lin/ros2_study/demo8/build/camera_stream/CMakeFiles/test.dir
+/home/lin/ros2_study/demo8/build/camera_stream/CMakeFiles/edit_cache.dir
+/home/lin/ros2_study/demo8/build/camera_stream/CMakeFiles/rebuild_cache.dir
+/home/lin/ros2_study/demo8/build/camera_stream/CMakeFiles/list_install_components.dir
+/home/lin/ros2_study/demo8/build/camera_stream/CMakeFiles/install.dir
+/home/lin/ros2_study/demo8/build/camera_stream/CMakeFiles/install/local.dir
+/home/lin/ros2_study/demo8/build/camera_stream/CMakeFiles/install/strip.dir

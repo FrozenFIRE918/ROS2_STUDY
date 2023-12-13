@@ -1,0 +1,6 @@
+Invoking command in '/home/lin/ros2_study/demo8/build/camera_stream': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lin/ros2_study/demo8/src/camera_stream -DCMAKE_INSTALL_PREFIX=/home/lin/ros2_study/demo8/install/camera_stream
+Invoked command in '/home/lin/ros2_study/demo8/build/camera_stream' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lin/ros2_study/demo8/src/camera_stream -DCMAKE_INSTALL_PREFIX=/home/lin/ros2_study/demo8/install/camera_stream
+Invoking command in '/home/lin/ros2_study/demo8/build/camera_stream': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/ros2_study/demo8/build/camera_stream -- -j20 -l20
+Invoked command in '/home/lin/ros2_study/demo8/build/camera_stream' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/ros2_study/demo8/build/camera_stream -- -j20 -l20
+Invoking command in '/home/lin/ros2_study/demo8/build/camera_stream': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/ros2_study/demo8/build/camera_stream
+Invoked command in '/home/lin/ros2_study/demo8/build/camera_stream' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/ros2_study/demo8/build/camera_stream
