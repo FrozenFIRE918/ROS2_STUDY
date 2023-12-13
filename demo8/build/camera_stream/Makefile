@@ -197,6 +197,43 @@ camera_stream_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/camera_stream_uninstall.dir/build.make CMakeFiles/camera_stream_uninstall.dir/build
 .PHONY : camera_stream_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named img_pub
+
+# Build rule for target.
+img_pub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 img_pub
+.PHONY : img_pub
+
+# fast build rule for target.
+img_pub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/img_pub.dir/build.make CMakeFiles/img_pub.dir/build
+.PHONY : img_pub/fast
+
+src/img_pub.o: src/img_pub.cpp.o
+.PHONY : src/img_pub.o
+
+# target to build an object file
+src/img_pub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/img_pub.dir/build.make CMakeFiles/img_pub.dir/src/img_pub.cpp.o
+.PHONY : src/img_pub.cpp.o
+
+src/img_pub.i: src/img_pub.cpp.i
+.PHONY : src/img_pub.i
+
+# target to preprocess a source file
+src/img_pub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/img_pub.dir/build.make CMakeFiles/img_pub.dir/src/img_pub.cpp.i
+.PHONY : src/img_pub.cpp.i
+
+src/img_pub.s: src/img_pub.cpp.s
+.PHONY : src/img_pub.s
+
+# target to generate assembly for a file
+src/img_pub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/img_pub.dir/build.make CMakeFiles/img_pub.dir/src/img_pub.cpp.s
+.PHONY : src/img_pub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... camera_stream_uninstall"
 	@echo "... uninstall"
+	@echo "... img_pub"
+	@echo "... src/img_pub.o"
+	@echo "... src/img_pub.i"
+	@echo "... src/img_pub.s"
 .PHONY : help
 
 

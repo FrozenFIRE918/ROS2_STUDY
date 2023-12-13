@@ -1,3 +1,4 @@
+/home/lin/ros2_study/demo8/install/camera_stream/lib/camera_stream/img_pub
 /home/lin/ros2_study/demo8/install/camera_stream/share/ament_index/resource_index/package_run_dependencies/camera_stream
 /home/lin/ros2_study/demo8/install/camera_stream/share/ament_index/resource_index/parent_prefix_path/camera_stream
 /home/lin/ros2_study/demo8/install/camera_stream/share/camera_stream/environment/ament_prefix_path.sh

@@ -1,0 +1,10 @@
+[0.024s] Invoking command in '/home/lin/ros2_study/demo8/build/camera_stream': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/ros2_study/demo8/build/camera_stream -- -j20 -l20
+[0.036s] [31mCMake Error at CMakeLists.txt:26:
+[0.036s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.036s]   "ament_target_dependencies{".
+[0.036s] 
+[0.036s] [0m
+[0.036s] -- Configuring incomplete, errors occurred!
+[0.036s] See also "/home/lin/ros2_study/demo8/build/camera_stream/CMakeFiles/CMakeOutput.log".
+[0.052s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[0.052s] Invoked command in '/home/lin/ros2_study/demo8/build/camera_stream' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/ros2_study/demo8/build/camera_stream -- -j20 -l20

@@ -20,16 +20,18 @@ find_package(rosidl_default_generators REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 add_executable(img_pub src/img_pub.cpp)
-target_link_directories(img_pub PUBLIC_HEADER
+
+target_link_directories(img_pub PUBLIC
 $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 $<INSTALL_INTERFACE:include>)
-ament_target_dependencies{
+
+ament_target_dependencies(
   img_pub
   "rclcpp"
   "OpenCV"
   "cv_bridge"
   "image_transport"
-}
+)
 
 install(
   TARGETS img_pub
